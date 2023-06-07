@@ -9,8 +9,11 @@ namespace RecursionPrac32
     {
         static void Main(string[] args)
         {
-            Fibonacci fibo = new Fibonacci();
-            Console.WriteLine(fibo.Get(50));
+            //Fibonacci fibo = new Fibonacci();
+            //Console.WriteLine(fibo.Get(50));
+
+            FibonacciAdv fiboAdv = new FibonacciAdv();
+            Console.WriteLine(fiboAdv.Get(50000));
         }
     }
 }
